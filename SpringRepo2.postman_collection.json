@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "43b0244e-a29a-457a-98b8-1cc5fc7c411c",
+		"name": "SpringRepo2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23018916"
+	},
+	"item": [
+		{
+			"name": "PostProLang(js)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\":\"javascript\",\r\n    \"firstAppearence\": \"0\",\r\n    \"currentPrice\": \"free\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/pl",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"pl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostProLang(go)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\":\"go\",\r\n    \"firstAppearence\": \"0\",\r\n    \"currentPrice\": \"free\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/pl",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"pl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostProLang(java)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\":\"java\",\r\n    \"firstAppearence\": \"0\",\r\n    \"currentPrice\": \"free\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/pl",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"pl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostProLang(c++)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\":\"c++\",\r\n    \"firstAppearence\": \"0\",\r\n    \"currentPrice\": \"free\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/pl",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"pl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPage0/size3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
